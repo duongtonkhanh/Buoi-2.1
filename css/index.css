@@ -6,6 +6,12 @@
 a{
     text-decoration: none;
 }
+body{
+    background-color:#faf4f2;
+}
+.clear{
+    clear: both;
+}
 /* Header Section */
 #header{
     background-color: #f8e1db;
@@ -110,7 +116,7 @@ a{
     color: #8d8d8d;
 }
 #activities .button-view-all{
-    padding-top: 450px;
+    padding-top: 5%;
     text-align: center;
 }
 #activities .button-view-all a{
@@ -170,5 +176,37 @@ a{
 /* End Contact Section */
 
 /* Footer Section */
-
+#footer{
+    padding: 60px 20px;
+    background-color: #f8e1db;
+    border-radius: 50px 50px 0 0;
+}
+#footer .content{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+}
+#footer .list{
+    float: left;
+    width: 60%;
+    box-sizing: border-box;
+}
+#footer .list .nav{
+    
+    float: left;
+    width: 33%;
+}
+#footer .list .nav li{
+    color: black;
+    list-style: none;
+    height: 30px;
+}
+#footer .list .nav li a{
+    color: black;
+    
+}
+.rights{
+    margin-top: 20px;
+    text-align: center;
+}
 /* End Footer Section */
