@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 /* Header Section */
 #header{
-    background-color: rgb(249, 228, 220);
+    background-color: #f8e1db;
     padding: 10px 70px;
 }
 /* #header .nav{
@@ -29,23 +32,143 @@
 }
 #header .nav a:hover{
     background-color: rgb(255, 170, 170);
+    
 }
 /* End HEader Section */
+
+/* Carousel Section */
 #carousel .carousel{
     background-image: url(../img/BG.png);
     background-position: center;
-    height: 600px;
+    height: 800px;
     background-size: cover;
 }
-/* Carousel Section */
-
 /* End Carousel Section */
 
 /* Activities Section */
+#activities{
+    background-color: #faf4f2;
+    padding-bottom: 50px;
+}
+#activities .activites_title{
+    padding-top: 50px;
+    text-align: center;
+    color: #8d8d8d;
+    padding-bottom: 2%;
+}
+#activities .activities_item {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    background-color: #faf4f2;
+}
+#activities .activities_item .activities_card{
+    background-color: #fff;
+    padding: 5%;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+#activities .activities_item .activities_card .activities_img{
+    position: relative;
+}
+#activities .activities_item .activities_card .activities_img img {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    position: absolute;
+}
+#activities .activities_item .activities_card .activities_img .activities_love a{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#activities .activities_item .activities_card .activities_detail{
+    text-align: center;
+    padding-top: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#activities .activities_item .activities_card .activities_detail h3{
+    margin-bottom: 10%;
+}
+#activities .activities_item .activities_card .activities_detail p{
+    margin-bottom: 10%;
+    color: #8d8d8d;
+}
+#activities .activities_item .activities_card .activities_detail a{
+    text-decoration: none;
+    padding: 4% 25%;
+    background-color: #e8e8e8;
+    border-radius: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8d8d8d;
+}
+#activities .button-view-all{
+    padding-top: 450px;
+    text-align: center;
+}
+#activities .button-view-all a{
+    color: #e77153;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1% 5%;
+    border-radius: 35px;
+    border: #e77153 solid 1px;
+}
+#activities .button-view-all a:hover{
+    background-color: #e77153;
+    color: #fff;
+}
 /* End Activities Section */
 
 /* Contact Section */
+#contact{
+    background-color: #f8e1db;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+#contact .contact_left, .contact_right{
+   float: left;
+   width: 50%;
+   padding: 20px 60px;
+}
+
+#contact .contact_left{
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #f8e1db;
+}
+#contact .contact_left .homeicon{
+    width: 285px;
+}
+#contact .contact_right{
+    padding-top: 70px;
+    color: #8d8d8d;
+    background-color: #f8e1db;
+}
+#contact .contact_right p{
+    margin: 12px 0 30px;
+}
+#contact .contact_right h3{
+    margin-bottom: 21px;
+}
+#contact .contact_app, .contact_us{
+    float: left;
+    width: 50%;
+}
+#contact .contact_us li{
+    list-style: none;
+    display: inline;
+}
+
 /* End Contact Section */
 
 /* Footer Section */
+
 /* End Footer Section */
